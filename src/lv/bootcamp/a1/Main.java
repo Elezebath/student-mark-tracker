@@ -1,13 +1,11 @@
 package lv.bootcamp.a1;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
 
 public class Main {
     public static final float PASS_SCORE = 75;
-    public static float highestAverage = 0;
+    static float highestAverage = 0;
 
-    public static void main(String[] args) {
+    public static void main() {
         int[][] studentMarks = {
                 {82, 76, 88, 82, 99},
                 {80, 70, 55, 37, 90},
